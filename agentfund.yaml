@@ -1,0 +1,13 @@
+# Project descriptor. Copy this file to the root of your repo and edit it.
+# Schema: spec/schemas/agentfund.schema.json
+spec_version: 1
+name: hello-project
+description: A tiny example project showing how AgentFund manifests, signing and CI fit together.
+repo_url: https://github.com/Ghvstcode/agentfund-e2e-hello
+ci_provider: github
+# Replace with the output of `agentfund keygen`. Donors compare this key's
+# fingerprint with the one shown on the server before approving.
+pubkey: RWQCyLdlfJtEHx95UL4Nw0ve1vBqeJXp5gWNdpBaBMMddD56o+4tCh9n
+language: python
+tags: [example]
+token_goal: 3000000
